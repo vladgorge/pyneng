@@ -1,0 +1,8 @@
+interface Ethernet0/3
+ description To sw1 Ethernet0/3
+ no ip address
+interface Ethernet0/3.100
+ encapsulation dot1Q 100
+ xconnect 10.2.2.2 12100 encapsulation mpls
+  backup peer 10.4.4.4 14100
+  backup delay 1 1

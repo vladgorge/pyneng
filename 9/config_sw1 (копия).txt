@@ -1,0 +1,10 @@
+
+interface FastEthernet0/0 vlan 10
+interface FastEthernet0/2 vlan 20
+interface FastEthernet1/0 vlan 20
+interface FastEthernet1/1 vlan 30
+
+interface FastEthernet0/1 vlan 100,200
+interface FastEthernet0/3 vlan 100,300
+interface FastEthernet1/2 vlan 400,500
+
